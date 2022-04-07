@@ -8,4 +8,4 @@
     elseif($valor_produto > $valor_pago)
         echo "Valor pago insulficiente!";
     else
-        echo "Valor do troco:".($valor_pago - $valor_produto);
+        echo "Valor do troco: R$".($valor_pago - $valor_produto);
